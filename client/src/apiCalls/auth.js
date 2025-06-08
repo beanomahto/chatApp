@@ -2,7 +2,6 @@ import { axiosInstance, url } from "./index";
 
 export const signupUser = async (user) => {
   try {
-    console.log("chuuu");
     const response = await axiosInstance.post(url + "/api/auth/signup", user);
     return response.data;
   } catch (error) {
