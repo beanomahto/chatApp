@@ -171,7 +171,6 @@ function UsersList({ searchKey, socket, onlineUser }) {
     if (obj?.members) {
       user = obj?.members.find((mem) => mem?._id !== currentUser?._id);
     }
-    console.log(user?._id);
     return (
       <div
         className="user-search-filter"
