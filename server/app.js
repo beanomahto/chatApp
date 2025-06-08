@@ -17,7 +17,7 @@ const server = require("http").createServer(app);
 
 const io = require("socket.io")(server, {
   cors: {
-    origin: "https://charcha-app-client.onrender.com/",
+    origin: "https://charcha-app-client.onrender.com",
     methods: ["GET", "POST"],
   },
 });
