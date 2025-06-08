@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export let url = "http://localhost:3000";
+export let url = "https://charcha-app-server.onrender.com";
 
 export const axiosInstance = axios.create({
   headers: {
